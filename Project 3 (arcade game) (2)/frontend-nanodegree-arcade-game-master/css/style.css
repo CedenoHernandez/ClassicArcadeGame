@@ -1,17 +1,19 @@
-html,
+
 body {
     text-align: center;
-    background: linear-gradient(#aff7ad, #f0f7ad)
+    background: #ffffff url('../images/leaves.png'); /*image from subtlepatterns.com*/
 }
+
 
 h1 {
   font-size: 35px;
-  font-family: cursive;
+  font-family: 'Barriecito', cursive;
   text-transform: uppercase;
-  border-radius: 10px;
+  border-radius: 20px;
   border-style: solid;
-  font-style: italic;
-  background-color: #f8f9e5;
-  margin-right: 100px;
-  margin-left: 100px;
+  background: linear-gradient(#aff7ad, #f0f7ad);
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
