@@ -1,13 +1,13 @@
 
 body {
     text-align: center;
+    font-family: 'Acme', sans-serif;
     background: #ffffff url('../images/leaves.png'); /*image from subtlepatterns.com*/
 }
 
 
 h1 {
   font-size: 35px;
-  font-family: 'Barriecito', cursive;
   text-transform: uppercase;
   border-radius: 20px;
   border-style: solid;
@@ -16,4 +16,89 @@ h1 {
   margin-right: 25%;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.modal {
+  position: fixed;
+	top: 100px;
+	bottom: 50px;
+	left: 0;
+	right: 0;
+  margin: auto;
+	padding: 20px;
+	border-radius: 20px;
+	width: 50%;
+  text-align: center;
+  border: solid;
+  border-width: 3px;
+  font-size: 25px;
+  background: linear-gradient(#aff7ad, #f0f7ad);
+}
+
+.modal2 {
+  display: none;
+  position: fixed;
+	top: 100px;
+	bottom: 50px;
+	left: 0;
+	right: 0;
+  margin: auto;
+	padding: 20px;
+	border-radius: 20px;
+	width: 50%;
+  text-align: center;
+  border: solid;
+  border-width: 3px;
+  font-size: 25px;
+  background: linear-gradient(#aff7ad, #f0f7ad);
+}
+
+.currentLevel {
+  font-size: 20px;
+  font-style: oblique;
+}
+
+.pool {
+  max-height: 200px;
+}
+
+.over {
+  margin-top: 0px;
+  font-size: 60px;
+}
+
+.select {
+  margin-bottom: 0px;
+}
+
+img.avatar {
+  cursor: pointer;
+}
+
+button {
+  background-color:#02ccba;
+  font-size: 2em;
+  font-family: 'Acme', sans-serif;
+  border-radius: 5px;
+  border: solid;
+  border-width: 3px;
+  cursor: pointer;
+}
+
+/* fixes formatting for mobile device (Nexus 5) */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px) {
+    h1 {
+    margin-right: -65px;
+  }
+  .currentLevel {
+    margin-right: -150px;
+  }
+  .modal {
+    font-size: 17px;
+  }
+  img {
+    max-height: 130px;
+  }
 }
