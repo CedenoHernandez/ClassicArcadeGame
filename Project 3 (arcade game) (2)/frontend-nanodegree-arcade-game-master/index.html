@@ -5,11 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bug Run</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Barriecito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
   <h1> Bug Run </h1>
+  <p class = "currentLevel">Level <span class ="level"> 1 </span></p>
+
+  <div class= "modal">
+      <div class = "popup">
+         <h2>Ready?</h2>
+           <p> It's a hot summer day, and you're ready to jump into the pool. Too bad you'll have to avoid those pesky bugs before you can jump in. Don't get caught!</p>
+           <p class= "select"> <u>Choose your character:</u></p>
+               <img id= "catGirl" class= "avatar" onclick= "setAvatar1()" src= "images/char-cat-girl.png">
+               <img id= "hornGirl" class= "avatar" onclick= "setAvatar2()" src= "images/char-horn-girl.png">
+               <img id= "boy" class= "avatar" onclick= "setAvatar3()" src= "images/char-boy.png">
+               <img id= "pinkGirl" class= "avatar"  onclick= "setAvatar4()"src= "images/char-pink-girl.png">
+               <img id= "princess" class= "avatar" onclick= "setAvatar5()" src= "images/char-princess-girl.png">
+       </div>
+   </div>
+
+   <div class= "modal2">
+        <div class = "popup2">
+          <img class ="pool" src= "images/water-splash.png">
+          <h2 class = "over">Game Over!</h2>
+            <p> You completed the game and made it to level <span id=finalLevel></span>! Try again for a higher score!</p>
+        </div>
+        <button id = "play-again">Play Again?</button>
+    </div>
+    
     <script src="js/resources.js"></script>
     <script src="js/app.js"></script>
     <script src="js/engine.js"></script>

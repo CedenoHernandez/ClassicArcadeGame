@@ -1,20 +1,28 @@
-# Classic Arcade Game Clone Project
+# Bug Run
+---
+A clone of the arcade classic, Frogger.
 
-## Table of Contents
+### Version History
+---
+  * 1.0 - initial release
 
-- [Instructions](#instructions)
-- [Contributing](#contributing)
+## Installation:
+---
+* Download the repository:
+* Click download ZIP on the right of the screen, then extract the zip file to your computer, or clone the repository using git.
+* Navigate to where you unzipped the file or cloned the repository.
+* Double-click index.html to open the game in your browser.
 
-## Instructions
+## How to Play:
+---
+Use the cursor to select your character. Then use the arrow keys to navigate the character. The purpose of the game is to get to the other side of the map without colliding with one of the insects. The game is over
+when you touch one. See how many levels you can make it through before getting Game Over!
 
-Use this [rubric](https://review.udacity.com/#!/rubrics/15/view) for self-checking your submission.
+## Purpose
+---
+Completed for Udacity's Front End Development Nanodegree.
 
-Make sure the functions you write are **object-oriented** - either class functions (like `Player` and `Enemy`) or class prototype functions such as `Enemy.prototype.checkCollisions`. Also make sure that the keyword `this` is used appropriately within your class and class prototype functions to refer to the object the function is called upon.
-
-Your **README.md** file should be updated with instructions on both how to 1. Run and 2. Play your arcade game.
-
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+## Dependencies
+---
+Game engine and visual assets provided by Udacity.com
+Javascript, HTML Canvas
